@@ -1,0 +1,31 @@
+[debug] [2026-09-08T20:00:36.451Z] ----------------------------------------------------------------------
+[debug] [2026-09-08T20:00:36.453Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --no-localhost
+[debug] [2026-09-08T20:00:36.453Z] CLI Version:   15.29.0
+[debug] [2026-09-08T20:00:36.453Z] Platform:      win32
+[debug] [2026-09-08T20:00:36.453Z] Node Version:  v24.20.0
+[debug] [2026-09-08T20:00:36.453Z] Detected Agent: unknown
+[debug] [2026-09-08T20:00:36.453Z] Time:          Tue Sep 08 2026 13:00:36 GMT-0700 (توقيت المحيط الهادي الصيفي)
+[debug] [2026-09-08T20:00:36.453Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[info] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you. 
+[info] 
+[info] i  To change your preferences at any time, run `firebase logout` and `firebase login` again. 
+[debug] [2026-09-08T20:00:40.291Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2026-09-08T20:00:40.291Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"59581ec4-a904-4dd8-a551-33cbec0dc164"}
+[debug] [2026-09-08T20:00:41.573Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2026-09-08T20:00:41.574Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"W8jBr1lcX5g3X-YxyONwr0QXgK_S6DtGw8i5WjbYv_s"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    59581
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=2I6GqCMQk7hPS2RHXwQEemTpgBY4ueq-AqESwUlKDn4&session=59581ec4-a904-4dd8-a551-33cbec0dc164&attest=W8jBr1lcX5g3X-YxyONwr0QXgK_S6DtGw8i5WjbYv_s
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 

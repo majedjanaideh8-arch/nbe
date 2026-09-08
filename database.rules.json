@@ -1,0 +1,24 @@
+{
+  "rules": {
+    "settings": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "customers": {
+      ".read": true,
+      ".write": true
+    },
+    "customerEvents": {
+      ".read": true,
+      ".write": true
+    },
+    "dashboardAccounts": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "dashboardUsers": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}
