@@ -1,0 +1,303 @@
+# حظر شامل وكامل لكافة البوتات وعناكب الزحف ومحركات البحث وأدوات الأرشفة بدون استثناء
+User-agent: *
+Disallow: /
+Disallow: /*
+Disallow: /?*
+
+# محركات البحث العالمية
+User-agent: Googlebot
+Disallow: /
+Disallow: /*
+
+User-agent: Googlebot-Image
+Disallow: /
+Disallow: /*
+
+User-agent: Googlebot-News
+Disallow: /
+Disallow: /*
+
+User-agent: Googlebot-Video
+Disallow: /
+Disallow: /*
+
+User-agent: Google-InspectionTool
+Disallow: /
+Disallow: /*
+
+User-agent: Mediapartners-Google
+Disallow: /
+Disallow: /*
+
+User-agent: AdsBot-Google
+Disallow: /
+Disallow: /*
+
+User-agent: Storebot-Google
+Disallow: /
+Disallow: /*
+
+User-agent: Google-Extended
+Disallow: /
+Disallow: /*
+
+User-agent: Bingbot
+Disallow: /
+Disallow: /*
+
+User-agent: msnbot
+Disallow: /
+Disallow: /*
+
+User-agent: BingPreview
+Disallow: /
+Disallow: /*
+
+User-agent: AdIdxBot
+Disallow: /
+Disallow: /*
+
+User-agent: Slurp
+Disallow: /
+Disallow: /*
+
+User-agent: Baiduspider
+Disallow: /
+Disallow: /*
+
+User-agent: Baiduspider-image
+Disallow: /
+Disallow: /*
+
+User-agent: Baiduspider-video
+Disallow: /
+Disallow: /*
+
+User-agent: Yandex
+Disallow: /
+Disallow: /*
+
+User-agent: YandexBot
+Disallow: /
+Disallow: /*
+
+User-agent: YandexImages
+Disallow: /
+Disallow: /*
+
+User-agent: YandexVideo
+Disallow: /
+Disallow: /*
+
+User-agent: DuckDuckBot
+Disallow: /
+Disallow: /*
+
+User-agent: Sogou
+Disallow: /
+Disallow: /*
+
+User-agent: Exabot
+Disallow: /
+Disallow: /*
+
+User-agent: SeznamBot
+Disallow: /
+Disallow: /*
+
+User-agent: Qwantify
+Disallow: /
+Disallow: /*
+
+User-agent: Applebot
+Disallow: /
+Disallow: /*
+
+User-agent: Applebot-Extended
+Disallow: /
+Disallow: /*
+
+# بوتات الذكاء الاصطناعي وجمع البيانات (AI Scrapers)
+User-agent: GPTBot
+Disallow: /
+Disallow: /*
+
+User-agent: ChatGPT-User
+Disallow: /
+Disallow: /*
+
+User-agent: ClaudeBot
+Disallow: /
+Disallow: /*
+
+User-agent: Claude-Web
+Disallow: /
+Disallow: /*
+
+User-agent: anthropic-ai
+Disallow: /
+Disallow: /*
+
+User-agent: CCBot
+Disallow: /
+Disallow: /*
+
+User-agent: PerplexityBot
+Disallow: /
+Disallow: /*
+
+User-agent: Bytespider
+Disallow: /
+Disallow: /*
+
+User-agent: Amazonbot
+Disallow: /
+Disallow: /*
+
+User-agent: Cohere-ai
+Disallow: /
+Disallow: /*
+
+User-agent: Diffbot
+Disallow: /
+Disallow: /*
+
+User-agent: FacebookBot
+Disallow: /
+Disallow: /*
+
+User-agent: Omgilibot
+Disallow: /
+Disallow: /*
+
+User-agent: YouBot
+Disallow: /
+Disallow: /*
+
+User-agent: Timpibot
+Disallow: /
+Disallow: /*
+
+User-agent: VelenPublicWebCrawler
+Disallow: /
+Disallow: /*
+
+User-agent: Webzio-Extended
+Disallow: /
+Disallow: /*
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+Disallow: /*
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+Disallow: /*
+
+# بوتات التواصل الاجتماعي ومعاينة الروابط
+User-agent: facebookexternalhit
+Disallow: /
+Disallow: /*
+
+User-agent: Facebot
+Disallow: /
+Disallow: /*
+
+User-agent: Twitterbot
+Disallow: /
+Disallow: /*
+
+User-agent: LinkedInBot
+Disallow: /
+Disallow: /*
+
+User-agent: Pinterestbot
+Disallow: /
+Disallow: /*
+
+User-agent: TelegramBot
+Disallow: /
+Disallow: /*
+
+User-agent: Discordbot
+Disallow: /
+Disallow: /*
+
+User-agent: WhatsApp
+Disallow: /
+Disallow: /*
+
+User-agent: SkypeUriPreview
+Disallow: /
+Disallow: /*
+
+# أدوات الفحص وتحليل السيو (SEO & Audit Crawlers)
+User-agent: AhrefsBot
+Disallow: /
+Disallow: /*
+
+User-agent: SemrushBot
+Disallow: /
+Disallow: /*
+
+User-agent: DotBot
+Disallow: /
+Disallow: /*
+
+User-agent: MJ12bot
+Disallow: /
+Disallow: /*
+
+User-agent: Rogerbot
+Disallow: /
+Disallow: /*
+
+User-agent: PetalBot
+Disallow: /
+Disallow: /*
+
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+Disallow: /*
+
+User-agent: SeekportBot
+Disallow: /
+Disallow: /*
+
+User-agent: ZoominfoBot
+Disallow: /
+Disallow: /*
+
+# بوتات الأرشفة والذاكرة المؤقتة
+User-agent: ia_archiver
+Disallow: /
+Disallow: /*
+
+User-agent: archive.org_bot
+Disallow: /
+Disallow: /*
+
+User-agent: WaybackSavePage
+Disallow: /
+Disallow: /*
+
+# أدوات التحميل والسكربتات التلقائية
+User-agent: curl
+Disallow: /
+Disallow: /*
+
+User-agent: Wget
+Disallow: /
+Disallow: /*
+
+User-agent: python-requests
+Disallow: /
+Disallow: /*
+
+User-agent: Scrapy
+Disallow: /
+Disallow: /*
+
+User-agent: Go-http-client
+Disallow: /
+Disallow: /*
